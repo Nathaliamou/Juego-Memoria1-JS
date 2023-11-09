@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Memoria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">"
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12"><!--titulo-->
+                <!--<h1 class = "text-center text-danger my- ">Juego Memoria</h1>-->
+                <h1>Juego Memoria</h1>
+            </div>
+            <div class="col-12"><!--menu (https://getbootstrap.com/docs/5.3/ components/         navs-tabs/#base-nav)-->
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a href="#">Jugador: <span class=" jugador " >player 1</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a  href="#">Intentos:<span class=" intentos ">0</span></a>
+                    </li><!--el span no tiene saltos de linea-->
+                    <li class="nav-item">
+                        <a  href="#">Aciertos:<span class=" aciertos ">0</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a  href="#">Tiempo:<span class=" tiempo ">0</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a  href="#">Nivel:<span class=" nivel ">0</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <span class="btn btn-primary btn-iniciar">Iniciar</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-7"><!--tablero-->
+                    <h2>Tablero de Juego</h2>
+                    <hr>
+                    <div class="row g-3 tablero ">
+
+                    </div>
+                </div>
+                <div class="col-5"><!--Records-->
+                    <table class="table records mt-2">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Jugador</th>
+                                <th>Tiempo Total</th>
+                                <th>Total Intentos</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    <script src = "funciones.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<div class="row g-3 tablero ">
+                        <!--<div class="col-3"><img src="imagenes/corazon tapar.jpg" alt="" class="img-fluid"></div>
+                        <div class="col-3"><img src="imagenes/corazon tapar.jpg" alt="" class="img-fluid"></div>
+                        <div class="col-3"><img src="imagenes/corazon tapar.jpg" alt="" class="img-fluid"></div>
+                        <div class="col-3"><img src="imagenes/corazon tapar.jpg" alt="" class="img-fluid"></div>
+                        <div class="col-3"><img src="imagenes/corazon tapar.jpg" alt="" class="img-fluid"></div>
+                        <div class="col-3"><img src="imagenes/corazon tapar.jpg" alt="" class="img-fluid"></div>
+                        <div class="col-3"><img src="imagenes/corazon tapar.jpg" alt="" class="img-fluid"></div>
+                        <div class="col-3"><img src="imagenes/corazon tapar.jpg" alt="" class="img-fluid"></div>
+                        <div class="col-3"><img src="imagenes/corazon tapar.jpg" alt="" class="img-fluid"></div>
+                        <div class="col-3"><img src="imagenes/corazon tapar.jpg" alt="" class="img-fluid"></div>
+                        <div class="col-3"><img src="imagenes/corazon tapar.jpg" alt="" class="img-fluid"></div>
+                        <div class="col-3"><img src="imagenes/corazon tapar.jpg" alt="" class="img-fluid"></div>-->
+                    </div>
+
+
+                    chat gpt
+                    // Obtén el elemento contenedor donde se agregarán las imágenes
+const imageContainer = document.getElementById("image-container");
+
+// Supongamos que tienes una matriz de rutas de imágenes seleccionadas en JavaScript
+const selectedImages = [
+    "imagen1.jpg",
+    "imagen2.jpg",
+    "imagen3.jpg"
+];
+
+// Recorre la matriz de imágenes y crea elementos de imagen
+selectedImages.forEach(imagePath => {
+    const image = document.createElement("img");
+    image.src = imagePath;
+    image.classList.add("img-fluid"); // Aplica la clase de Bootstrap para hacer la imagen responsive
+    imageContainer.appendChild(image);
+});

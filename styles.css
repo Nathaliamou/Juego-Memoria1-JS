@@ -1,0 +1,47 @@
+.altura-img{
+    height: 200px;
+}
+
+
+body{ 
+    text-align: center;
+    border-radius: 10px;
+    border: 5px rgb(247, 247, 250) outset;
+    border: 100px solid transparent; 
+    border-image: none;
+    font-family:Arial, Helvetica, sans-serif;
+       /* background-image: url('imagenes/1366_2000.png');*/
+        background-size: cover; /* Otras opciones: contain, auto, 100% */
+        background-repeat: no-repeat; /* Evita la repetición de la imagen */
+        background-attachment: fixed; /* Fija la imagen en la ventana del navegador */
+        background-color: blueviolet;
+    }
+    
+/*header{
+    border: 5px rgb(228, 224, 227) outset;
+    color: rgb(30, 114, 36);
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}*/
+h1{
+    font-family: 'Comic Sans MS';
+    font-size: 60px; /* Tamaño de fuente personalizado */
+    font-weight: bold; /* Texto en negrita */
+    text-align: center;
+    color: red; /* Color de fuente personalizado */
+    margin-top: 0px; /* Espacio superior personalizado */
+}
+
+h2{
+    font-family: 'Comic Sans MS';
+    color: rgb(27, 191, 224);
+    font-size: 40px; /* Tamaño de fuente personalizado */
+    font-weight: bold; /* Texto en negrita */
+}
+a{
+    font-family: 'Comic Sans MS';
+    color: rgb(23, 17, 203);
+    font-size: 20px; /* Tamaño de fuente personalizado */
+   
+}
